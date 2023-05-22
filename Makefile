@@ -21,4 +21,6 @@ clean :
 
 re : fclean all
 
+git:
+	git add . && git commit -m "($1)" && git push
 .PHONNY: all fclean clean re
