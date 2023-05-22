@@ -24,3 +24,4 @@ re : fclean all
 git:
 	@read -p "Enter the commit: " message && git add . && git commit -m "$$message" && git push
 .PHONNY: all fclean clean re
+
